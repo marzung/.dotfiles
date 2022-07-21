@@ -76,3 +76,6 @@ keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- Format
 keymap("n", "<leader>f", "<cmd>lua vim.lsp.buf.formatting_sync()<cr>", opts)
+
+-- Trouble
+vim.api.nvim_set_keymap("n", "<leader>xx", "<cmd>TroubleToggle<cr>", { silent = true, noremap = true })
