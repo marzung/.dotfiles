@@ -1,2 +1,6 @@
 # .dotfiles
-Dotfiles
+Dotfiles for:
+
+- kitty
+- zsh
+- neovim
