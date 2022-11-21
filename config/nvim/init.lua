@@ -1,7 +1,7 @@
+require("user.plugins") -- Plugins
 require("user.vars") -- Variables
 require("user.options") -- Options
 require("user.keys") -- Keymaps
-require("user.plugins") -- Plugins
 require("user.colourscheme") -- Colour scheme
 
 -- Plugin Configs
