@@ -13,7 +13,7 @@ null_ls.setup({
 	sources = {
 		formatting.prettier.with({
 			extra_filetypes = { "toml", "solidity" },
-			extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" },
+			extra_args = { "--no-semi", "--single-quote" },
 		}),
 		formatting.stylua,
 		diagnostics.eslint,
